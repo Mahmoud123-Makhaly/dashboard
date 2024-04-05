@@ -1,0 +1,7 @@
+.Navbar {
+  .search-input {
+    &::placeholder {
+      color: $info;
+    }
+  }
+}

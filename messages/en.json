@@ -1,0 +1,16 @@
+{
+  "Index": {
+    "site": "Sab Cleaning"
+  },
+  "Comp_Custom_Err": {
+    "PAGE_NOT_FOUND": "Oops! The pag you’re looking for Can’t be found.",
+    "GO_TO_HOME": "Go To Home"
+  },
+
+  "COMP_Side_Bar": {
+    "LOGOUT": "Logout"
+  },
+  "COMP_Navbar": {
+    "PLACEHOLDER": "Search..."
+  }
+}

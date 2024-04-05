@@ -1,0 +1,16 @@
+{
+  "Index": {
+    "site": "dashboard"
+  },
+
+  "Comp_Custom_Err": {
+    "PAGE_NOT_FOUND": "لا يمكن العثور على الصفحة التي تبحث عنها.",
+    "GO_TO_HOME": "العودة الي الرئيسية"
+  },
+  "COMP_Side_Bar": {
+    "LOGOUT": "تسجيل الخروج"
+  },
+  "COMP_Navbar": {
+    "PLACEHOLDER": "بحث..."
+  }
+}

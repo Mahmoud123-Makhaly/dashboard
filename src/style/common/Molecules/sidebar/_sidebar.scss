@@ -1,0 +1,11 @@
+.sidebar {
+  .active {
+    background-color: $gray;
+  }
+  .sidebar-link {
+    transition: 0.3s all ease;
+    &:hover {
+      background-color: $gray;
+    }
+  }
+}
