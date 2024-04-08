@@ -1,6 +1,24 @@
-.sidebar {
-  flex-grow: 1;
+:dir(rtl) {
+  .content {
+    margin-inline-end: 250px;
+  }
 }
-.content {
-  flex-grow: 12;
+:dir(ltr) {
+  .content {
+    margin-inline-start: 250px;
+  }
+}
+@include for-tablet {
+  :dir(ltr) {
+    .content {
+      margin-inline-start: 0px;
+    }
+  }
+}
+@include for-tablet {
+  :dir(rtl) {
+    .content {
+      margin-inline-end: 0px;
+    }
+  }
 }

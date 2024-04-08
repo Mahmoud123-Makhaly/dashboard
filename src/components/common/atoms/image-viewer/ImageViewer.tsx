@@ -5,9 +5,9 @@ import Image from "next/image";
 
 interface IImageViewerProps {
   src: string | StaticImport;
-  alt: string;
-  width: number;
-  height: number;
+  alt?: string;
+  width?: number;
+  height?: number;
   sizes?: string;
   className?: string;
   priority?: boolean;
@@ -31,7 +31,7 @@ const ImageViewer = (props: IImageViewerProps) => {
     <div className="position-relative">
       <Image
         src={imgSrc}
-        alt={alt}
+        alt={alt??""}
         className={`position-static ${className}`}
         width={width}
         height={height}

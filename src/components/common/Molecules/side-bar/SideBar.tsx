@@ -13,7 +13,7 @@ const SideBar = ({ className }: { className?: string }) => {
   const pathName = usePathname();
   const t = useTranslate("COMP_Side_Bar");
   return (
-    <div className={` ${className} bg-secondary p-4  position-sticky `}>
+    <div className={` ${className} bg-secondary p-4 d-none d-lg-block `}>
       <UserInfo
         className=" mb-3"
         imgSrc="/images/sidebar/avatar.png"

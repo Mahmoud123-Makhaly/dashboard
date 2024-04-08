@@ -1,0 +1,18 @@
+.add_product {
+  input,
+  .form-select,
+  textarea {
+    background-color: $primary;
+    color: $body;
+    border: 0;
+    padding: 1rem;
+    &::placeholder,
+    &:focus {
+      color: $body;
+    }
+
+    &:focus {
+      background-color: $primary;
+    }
+  }
+}

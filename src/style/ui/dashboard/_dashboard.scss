@@ -1,0 +1,29 @@
+.users-card {
+  transition: 0.3s all ease;
+  &:hover {
+    background-color: $gray !important;
+  }
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.product-card {
+  .product-img {
+    width: 50%;
+    height: 50%;
+    opacity: 0.2;
+    object-fit: contain;
+  }
+  button {
+    width: max-content;
+  }
+}
+
+ 

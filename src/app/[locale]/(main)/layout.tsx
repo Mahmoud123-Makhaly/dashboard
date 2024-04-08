@@ -1,6 +1,5 @@
 import React, { ReactNode, Suspense } from "react";
-import { Metadata, ResolvingMetadata } from "next";
-import { Loading, Navbar, SideBar } from "@components";
+import { Footer, Loading, Navbar, SideBar } from "@components";
 
 type Props = {
   children: ReactNode;
@@ -13,10 +12,11 @@ const layout = (props: Props) => {
   return (
     <Suspense key={params.path} fallback={<Loading />}>
       <main className="d-flex">
-        <SideBar className="sidebar " />
-        <div className="content p-3 ">
+        <SideBar className="sidebar top-0 start-0 width-250 overflow-auto position-fixed" />
+        <div className="pt-0 p-3 content flex-grow-1">
           <Navbar />
-          {children}
+          <div className="paddingt-90">{children}</div>
+          <Footer />
         </div>
       </main>
     </Suspense>

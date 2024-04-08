@@ -1,0 +1,7 @@
+.users {
+  .search-input {
+    &::placeholder {
+      color: $info;
+    }
+  }
+}

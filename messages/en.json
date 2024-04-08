@@ -12,5 +12,34 @@
   },
   "COMP_Navbar": {
     "PLACEHOLDER": "Search..."
+  },
+  "COMP_Transactions": {
+    "LATEST_TRANSACTIONS": "Latest Transactions"
+  },
+  "COMP_TABLE_MAKER": {
+    "NAME": "Name ",
+    "STATUS": "Status",
+    "DATE": "Date",
+    "AMOUNT": "Amount"
+  },
+  "COMP_CHART": {
+    "WEEKLY_RECAP": " Weekly recap  "
+  },
+  "COMP_Users": {
+    "SEARCH": "Search for a user..."
+  },
+  "COMP_Products": { "SEARCH": "Search for products..." },
+  "COMP_AdvancedTable": {
+    "ADD_NEW": "Add New",
+
+    "VIEW": "View",
+    "REMOVE": "Remove"
+  },
+  "COMP_Footer": {
+    "ALL_RIGHTS_RESERVED": "All Rights Reserved ."
+  },
+  "COMP_Pagination": {
+    "PREVIOUS": "Previous",
+    "NEXT": "Next"
   }
 }

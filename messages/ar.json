@@ -12,5 +12,36 @@
   },
   "COMP_Navbar": {
     "PLACEHOLDER": "بحث..."
+  },
+  "COMP_Transactions": {
+    "LATEST_TRANSACTIONS": "احدث المعاملات"
+  },
+  "COMP_TABLE_MAKER": {
+    "NAME": "الاسم ",
+    "STATUS": "الحالة",
+    "DATE": "التاريخ",
+    "AMOUNT": "الكمية"
+  },
+  "COMP_CHART": {
+    "WEEKLY_RECAP": "خلاصة أسبوعية"
+  },
+  "COMP_Users": {
+    "SEARCH": "بحث عن المستخدم ..."
+  },
+  "COMP_Products": {
+    "SEARCH": "بحث عن منتجات ..."
+  },
+  "COMP_AdvancedTable": {
+    "ADD_NEW": "اضافة جديد",
+
+    "VIEW": "عرض",
+    "REMOVE": "حذف"
+  },
+  "COMP_Footer": {
+    "ALL_RIGHTS_RESERVED": "جميع الحقوق محفوظة ."
+  },
+  "COMP_Pagination": {
+    "PREVIOUS": "السابق",
+    "NEXT": "التالي"
   }
 }

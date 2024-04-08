@@ -7,6 +7,9 @@ interface IButtonMakerProps extends Omit<ButtonProps, "cssModule" | "color"> {
   className?: string;
   size?: "sm" | "lg";
   color?: string;
+  onClick?: () => void;
+  disabled?: boolean;
+  type?: "button" | "submit";
 }
 const ButtonMaker = (props: IButtonMakerProps) => {
   const {
@@ -20,10 +23,13 @@ const ButtonMaker = (props: IButtonMakerProps) => {
     close = false,
     active,
     onClick,
+    disabled = false,
+    type,
     ...rest
   } = props;
   return (
     <Button
+      disabled={disabled}
       size={size}
       className={className}
       outline={outline}
@@ -32,6 +38,7 @@ const ButtonMaker = (props: IButtonMakerProps) => {
       close={close}
       active={active}
       onClick={onClick}
+      type={type}
       {...rest}
     >
       {text}

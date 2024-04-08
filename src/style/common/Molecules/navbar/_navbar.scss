@@ -1,7 +1,21 @@
 .Navbar {
+  width: -webkit-fill-available;
+  z-index: 999;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   .search-input {
     &::placeholder {
       color: $info;
+    }
+  }
+}
+:dir(rtl) {
+  .Navbar {
+    margin-inline-end: 265px;
+  }
+  @include for-tablet {
+    .Navbar{
+      margin-inline-end: 0;
+      width: auto;
     }
   }
 }

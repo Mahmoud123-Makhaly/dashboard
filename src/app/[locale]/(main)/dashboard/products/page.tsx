@@ -1,7 +1,8 @@
 import React from "react";
+import { Products } from "@components";
 
 const Page = () => {
-  return <div>page</div>;
+  return <Products />;
 };
 
 export default Page;
